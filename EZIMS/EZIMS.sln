@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZIMS.API", "EZIMS.API\EZIMS.API.csproj", "{44D40DC1-A255-4B91-9628-326D4B0D4268}"
-EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "EZIMS.WEB", "EZIMS.WEB\EZIMS.WEB.esproj", "{66B8C1AF-34E5-1F8F-4C4E-B35605676AD6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZIMS.MODELS", "EZIMS.MODELS\EZIMS.MODELS.csproj", "{1F53D0D1-F5ED-4A11-B703-B14AD48E5A53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZIMS.DTO", "EZIMS.DTO\EZIMS.DTO.csproj", "{32AF1913-4F16-4ED0-A59E-1BA64170DD68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZIMS.API", "EZIMS.API\EZIMS.API.csproj", "{EC364124-DC35-4E21-BD57-90AB9F01E9CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{44D40DC1-A255-4B91-9628-326D4B0D4268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44D40DC1-A255-4B91-9628-326D4B0D4268}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44D40DC1-A255-4B91-9628-326D4B0D4268}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44D40DC1-A255-4B91-9628-326D4B0D4268}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66B8C1AF-34E5-1F8F-4C4E-B35605676AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66B8C1AF-34E5-1F8F-4C4E-B35605676AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66B8C1AF-34E5-1F8F-4C4E-B35605676AD6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -35,6 +31,10 @@ Global
 		{32AF1913-4F16-4ED0-A59E-1BA64170DD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32AF1913-4F16-4ED0-A59E-1BA64170DD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32AF1913-4F16-4ED0-A59E-1BA64170DD68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC364124-DC35-4E21-BD57-90AB9F01E9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC364124-DC35-4E21-BD57-90AB9F01E9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC364124-DC35-4E21-BD57-90AB9F01E9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC364124-DC35-4E21-BD57-90AB9F01E9CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
