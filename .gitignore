@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EZIMS/.vs/EZIMS
+/EZIMS/.vs/ProjectEvaluation
+/EZIMS/EZIMS.API/obj/Debug/net8.0
+/EZIMS/EZIMS.API/EZIMS.API.csproj.user
+/EZIMS/EZIMS.DTO/obj
+/EZIMS/EZIMS.MODELS/obj
