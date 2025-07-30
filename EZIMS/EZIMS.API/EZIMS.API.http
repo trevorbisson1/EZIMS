@@ -1,6 +1,6 @@
 @EZIMS.API_HostAddress = http://localhost:5260
 
-GET {{EZIMS.API_HostAddress}}/weatherforecast/
+GET {{EZIMS.API_HostAddress}}/
 Accept: application/json
 
 ###
