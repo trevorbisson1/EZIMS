@@ -7,8 +7,13 @@ using System.Threading.Tasks;
 
 namespace EZIMS.MODELS
 {
-    public class EZIMSApiDBContext
+    public class EZIMSApiDBContext : DbContext
     {
+        public EZIMSApiDBContext(DbContextOptions<EZIMSApiDBContext> options) : base(options)
+        {
+
+        }
+
         public required DbSet<Business> Businesses { get; set; }
         public required DbSet<BusinessAction> BusinessActions { get; set; }
         public required DbSet<BusinessAction_BusinessRole_PivotTable> BusinessAction_BusinessRole_PivotTables { get; set; }

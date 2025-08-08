@@ -15,6 +15,6 @@ namespace EZIMS.MODELS
         public required int Quantity { get; set; }
         public string? Description { get; set; }
         public required Guid BusinessID { get; set; }
-
+        public required int ItemTypeID { get; set; }
     }
 }

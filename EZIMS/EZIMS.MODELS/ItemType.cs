@@ -12,7 +12,7 @@ namespace EZIMS.MODELS
     public class ItemType
     {
         [Key]
-        public int ItemID { get; set; }
+        public int ItemTypeID { get; set; }
         public required string  Name {get; set;}
         public required Guid BusinessID { get; set; }
 
