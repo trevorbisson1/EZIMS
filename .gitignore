@@ -9,3 +9,9 @@
 /EZIMS/EZIMS.DTO/obj
 /EZIMS/EZIMS.MODELS/obj
 /EZIMS/EZIMS.API/obj
+/EZIMS/EZIMS.API/bin/Debug/net8.0
+/EZIMS/EZIMS.MODELS/bin/Debug/net8.0
+/EZIMS/EZIMS.DTO/bin/Debug/net8.0/EZIMS.DTO.dll
+/EZIMS/EZIMS.DTO/bin/Debug/net8.0/EZIMS.DTO.pdb
+/EZIMS/EZIMS.WEB/obj/Debug/EZIMS.WEB.esproj.FileListAbsolute.txt
+/EZIMS/EZIMS.slnLaunch.user

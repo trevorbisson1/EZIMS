@@ -11,5 +11,7 @@
   <ItemGroup>
     <Folder Include="public\" />
     <Folder Include="src\assets\" />
+    <Folder Include="src\Components\" />
+    <Folder Include="src\Screens\" />
   </ItemGroup>
 </Project>

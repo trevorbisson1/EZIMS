@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\EZIMS.MODELS\EZIMS.MODELS.csproj" />
   </ItemGroup>
 
 </Project>
