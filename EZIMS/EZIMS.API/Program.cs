@@ -1,5 +1,4 @@
-
-using EZIMS.MODELS;
+using EZIMS.MODELS.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

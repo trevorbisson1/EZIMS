@@ -1,18 +1,18 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZIMS.MODELS
+namespace EZIMS.MODELS.Models
 {
-    public class SiteRole
+    public class Business
     {
         [Key]
-        public int SiteRoleID { get; set; }
-
+        public Guid BusinessID { get; set; }
         public required string Name { get; set; }
-        
+
     }
 }

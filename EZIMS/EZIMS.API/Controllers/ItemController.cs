@@ -1,4 +1,4 @@
-﻿using EZIMS.MODELS;
+﻿using EZIMS.MODELS.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

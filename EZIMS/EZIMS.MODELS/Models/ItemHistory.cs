@@ -5,16 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZIMS.MODELS
+namespace EZIMS.MODELS.Models
 {
-    public class Item_ItemType_PivotTable
+    public class ItemHistory
     {
         [Key]
+        int ItemHistoryID { get; set; }
         public int ItemID { get; set; }
-        [Key]
-        public int ItemType { get; set; } 
-        private string? Note {  get; set; }
-        public Guid BusinessID { get; set; }
-
+        public DateTime TrackDate { get; set; }
+        public int Quantity { get; set; }
     }
 }

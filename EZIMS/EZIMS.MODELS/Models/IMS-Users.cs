@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZIMS.MODELS
+namespace EZIMS.MODELS.Models
 {
     public class IMS_Users
     {

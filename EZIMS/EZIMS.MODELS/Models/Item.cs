@@ -5,13 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZIMS.MODELS
+namespace EZIMS.MODELS.Models
 {
-    public class BusinessRole
+    public class Item
     {
         [Key]
-        public int BusinessRoleID { get; set; }
+        public int ItemID { get; set; }
         public required string Name { get; set; }
+        public required int Quantity { get; set; }
         public string? Description { get; set; }
+        public required Guid BusinessID { get; set; }
+        public required int ItemTypeID { get; set; }
     }
 }
