@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 namespace EZIMS.API.Controllers
 {
     [ApiController]
+    [Route("[controller]")]
     public class ItemController : Controller
     {
         private ItemMethods _itemMethods;

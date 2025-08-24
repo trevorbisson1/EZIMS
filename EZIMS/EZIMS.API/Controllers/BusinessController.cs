@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 namespace EZIMS.API.Controllers
 {
     [ApiController]
+    [Route("[controller]")]
     public class BusinessController : Controller
     {
         private BusinessMethods _businessMethods;

@@ -4,9 +4,12 @@ const ApiSlice = createApi({
     baseQuery: fetchBaseQuery({ baseUrl: 'https://localhost:7207/' }),
     endpoints: builder => ({
 
-        getItems: builder.query ({
-            query: () => 'Item/GetItem'
+        // Item Controller
+        getItems: builder.query({
+            query: (itemID) => 'Item/GetItem?itemID=' + encodeURIComponent(itemID),
         })
+
+        //Business Controller
     })
 })
 
