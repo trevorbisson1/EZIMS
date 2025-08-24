@@ -1,3 +1,4 @@
+using EZIMS.MODELS.Methods;
 using EZIMS.MODELS.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +16,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+// DI for Custom Methods to be used throughout the application
+builder.Services.AddScoped<ItemMethods>();
+builder.Services.AddScoped<BusinessMethods>();
+
 
 var app = builder.Build();
 

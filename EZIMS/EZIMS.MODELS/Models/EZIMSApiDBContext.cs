@@ -19,7 +19,7 @@ namespace EZIMS.MODELS.Models
         //public required DbSet<BusinessAction_BusinessRole_PivotTable> BusinessAction_BusinessRole_PivotTables { get; set; }
         //public required DbSet<BusinessRole> BusinessRoles { get; set; }
         //public required DbSet<IMS_Users> IMS_Users { get; set; }
-        //public required DbSet<Item> Items { get; set; }
+        public required DbSet<Item> Items { get; set; }
         //public required DbSet<ItemHistory> ItemHistories { get; set; }
         //public required DbSet<Item_ItemType_PivotTable> Item_ItemType_PivotTables { get; set; }
         //public required DbSet<ItemType> ItemTypes { get; set; }

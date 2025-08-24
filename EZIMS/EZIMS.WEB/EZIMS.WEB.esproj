@@ -12,6 +12,8 @@
     <Folder Include="public\" />
     <Folder Include="src\assets\" />
     <Folder Include="src\Components\" />
-    <Folder Include="src\Screens\" />
+    <Folder Include="src\Layouts\" />
+    <Folder Include="src\Redux\ApiSlice\" />
+    <Folder Include="src\Redux\Store\" />
   </ItemGroup>
 </Project>

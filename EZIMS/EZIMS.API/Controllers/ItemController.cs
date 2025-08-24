@@ -1,16 +1,18 @@
-﻿using EZIMS.MODELS.Models;
+﻿using EZIMS.MODELS.Methods;
+using EZIMS.MODELS.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 namespace EZIMS.API.Controllers
 {
     [ApiController]
     public class ItemController : Controller
     {
-        private EZIMSApiDBContext _context;
+        private ItemMethods _itemMethods;
 
-        public ItemController(EZIMSApiDBContext context) { 
-            _context = context;
+        public ItemController(ItemMethods itemMethods) {
+            _itemMethods = itemMethods;
         }
 
         [HttpGet("GetItem")]
@@ -19,7 +21,8 @@ namespace EZIMS.API.Controllers
         {
             try
             {
-                return Ok();
+                var value = await _itemMethods.GetItemByIDAsync(itemID);
+                return Ok(JsonConvert.SerializeObject(value));
             }
             catch(Exception ex) {
                 return BadRequest(ex.Message);
